@@ -1,5 +1,5 @@
 # ベースイメージにDebianを使用
-FROM debian:bullseye
+FROM mcr.microsoft.com/devcontainers/base:bullseye
 
 # # ユーザーとグループを追加
 # ARG USERNAME=vscode
